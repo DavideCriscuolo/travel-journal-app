@@ -1,0 +1,12 @@
+.col {
+  height: 400px;
+}
+.card-img-overlay {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.enter {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}

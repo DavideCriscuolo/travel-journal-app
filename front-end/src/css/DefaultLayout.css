@@ -1,0 +1,8 @@
+.bg {
+  background-image: url("./../assets/bg-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 67% 35%;
+  background-attachment: fixed;
+  height: 700px;
+}
