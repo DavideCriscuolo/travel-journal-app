@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { supabase } from "../Client/client";
+
 import "./../css/MainHome.css";
 import CardC from "./CardC";
 export default function MainHome() {
@@ -25,7 +26,7 @@ export default function MainHome() {
       <main className="bg_main_home">
         <div className="container ">
           <h1>Il mio Diario di Viaggio</h1>
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5  g-3">
+          <div className="row row-cols-1 row-cols-sm--2 row-cols-md-3 row-cols-lg-5   g-3">
             {traverl.map((item) => {
               return (
                 <CardC
