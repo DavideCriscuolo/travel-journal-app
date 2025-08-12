@@ -55,7 +55,7 @@ export default function CardC(prop) {
               <h5 className="card-title fw-bold">{prop.luogo}</h5>
               <button
                 onClick={() => setClicked(null)}
-                className="btn btn-primary mt-3"
+                className="btn  btn-primary mt-3"
               >
                 Chiudi
               </button>
