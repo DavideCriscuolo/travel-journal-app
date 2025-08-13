@@ -8,7 +8,7 @@ export default function CardC(prop) {
 
   return (
     <>
-      <div key={prop.id} className="col">
+      <div key={prop.id} className="col col_cards">
         <div
           className="card h-100 text-bg-dark"
           onMouseEnter={() => setIsEnter(prop.id)}
