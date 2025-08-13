@@ -63,21 +63,12 @@ export default function SingleJourney() {
                           </h2>
 
                           <div className="card-text">
-                            <p>{item.desc}</p>
-                            <p>
-                              In quei momenti mi sentivo{" "}
-                              {item.stato_danimo.toLowerCase()}!
-                            </p>
                             <div>
                               <h5 className="fw-bold">Considerazioni</h5>{" "}
-                              <ul className="list-unstyled ">
-                                <li className="py-3  border-bottom">
-                                  Pro: {item.riflessione_positiva}{" "}
-                                </li>
-                                <li className="py-3  border-bottom">
-                                  Contro: {item.riflessione_nega}
-                                </li>
-                              </ul>
+                              <div>
+                                <p>{item.riflessione_posi} </p>
+                                <p>{item.riflessione_nega}</p>
+                              </div>
                             </div>
                             <div>
                               <h6 className="fw-bold">

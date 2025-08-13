@@ -1,3 +1,15 @@
 .bg_main_home {
   background-color: #101616;
 }
+.emoji {
+  display: inline-block;
+  animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}

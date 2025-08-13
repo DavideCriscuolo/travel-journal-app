@@ -24,9 +24,11 @@ export default function MainHome() {
   return (
     <>
       <main className="bg_main_home">
-        <div className="container ">
-          <h1>Il mio Diario di Viaggio</h1>
-          <div className="row row-cols-1 row-cols-sm--2 row-cols-md-3 row-cols-lg-5   g-3">
+        <div className="container p-3 ">
+          <h1 className="text-center text-white">
+            I miei viaggi <span className="emoji bounce">🛩️</span>{" "}
+          </h1>
+          <div className="row row-cols-1 row-cols-sm--2 row-cols-md-3 row-cols-lg-5 p-5  g-3">
             {juorneys.map((item) => {
               return (
                 <CardC
